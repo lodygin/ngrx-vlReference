@@ -1,0 +1,46 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "name": "Audi",
+      "date": "04.05.06",
+      "model": "RX6",
+      "isSold": true
+    },
+    {
+      "name": "test",
+      "date": "26.07.20",
+      "model": "test",
+      "isSold": false,
+      "id": 3
+    },
+    {
+      "name": "new CAR",
+      "date": "26.07.20",
+      "model": "car",
+      "isSold": false,
+      "id": 4
+    },
+    {
+      "name": "test",
+      "date": "26.07.20",
+      "model": "test",
+      "isSold": false,
+      "id": 5
+    },
+    {
+      "name": "testte",
+      "date": "26.07.20",
+      "model": "test",
+      "isSold": false,
+      "id": 6
+    },
+    {
+      "name": "tetse",
+      "date": "26.07.20",
+      "model": "tsetsetset",
+      "isSold": false,
+      "id": 7
+    }
+  ]
+}

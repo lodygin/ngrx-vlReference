@@ -1,0 +1,16 @@
+<div
+  [ngClass]="{
+    'res': car.isSold
+  }"
+>
+  <h4>{{car.name}}</h4>
+  <small>{{car.date}}</small>
+  <p>{{car.model}}</p>
+  <button (click)="onDelete()">Delete</button>
+  <button
+    (click)="onBuy()"
+    [disabled]="car.isSold"
+  >Buy</button>
+</div>
+<hr>
+

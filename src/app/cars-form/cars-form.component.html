@@ -1,0 +1,22 @@
+<div>
+  <label> Car name
+    <input
+      type="text"
+      placeholder="Car name"
+      [(ngModel)]="carName"
+    >
+  </label>
+</div>
+
+<div>
+  <label> Car model
+    <input
+      type="text"
+      placeholder="Car model"
+      [(ngModel)]="carModel"
+    >
+  </label>
+</div>
+
+<button (click)="onAdd()">Add car</button>
+<button (click)="onLoad()">Load cars</button>
